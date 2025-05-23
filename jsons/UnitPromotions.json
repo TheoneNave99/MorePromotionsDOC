@@ -32,7 +32,7 @@
   },
   {
      "name": "Infiltrater III",
-     "prerequisites": ["Infiltrater I"],
+     "prerequisites": ["Infiltrater II"],
      "uniques": ["Unable to capture cities","Invisible to others"],
      "unitTypes": ["Scout"]
   },
