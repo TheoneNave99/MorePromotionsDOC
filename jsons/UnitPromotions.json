@@ -3,13 +3,13 @@
      "name": "Spotter I",
      "prerequisites": ["Accuracy III","Barrage III"],
      "uniques": ["[+1] Sight"],
-     "unitTypes": ["Archery","Ranged Gunpowder","Siege"]
+     "unitTypes": ["Archery","Ranged Gunpowder","Siege", "Artillery"]
   },
   {
      "name": "Spotter II",
      "prerequisites": ["Spotter I"],
      "uniques": ["Can see over obstacles"],
-     "unitTypes": ["Archery","Ranged Gunpowder","Siege"]
+     "unitTypes": ["Archery","Ranged Gunpowder","Siege", "Artillery"]
   },
 
   {
@@ -41,32 +41,35 @@
      "name": "Route March I",
      "prerequisites": ["Rank II"],
      "uniques": ["[+2] Movement <in [Friendly Land] tiles>"],
-     "unitTypes": ["Mounted","Armored","Sword","Gunpowder","Siege","Archery","Ranged Gunpowder"]
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Infantry","Archaic Infantry","Light Cavalry",
+	     "Heavy Cavalry","Camel","Elephant","Machinegun","Artillery"]
   },
   {
      "name": "Route March II",
      "prerequisites": ["Route March I"],
      "uniques": ["[+1] Movement"],
-     "unitTypes": ["Mounted","Armored","Sword","Gunpowder","Siege","Archery","Ranged Gunpowder"]
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Infantry","Archaic Infantry","Light Cavalry",
+	     "Heavy Cavalry","Camel","Elephant","Machinegun","Artillery"]
   },
   {
      "name": "Route March III",
      "prerequisites": ["Route March II"],
      "uniques": ["[+1] Movement"],
-     "unitTypes": ["Mounted","Armored","Sword","Gunpowder","Siege","Archery","Ranged Gunpowder"]
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Infantry","Archaic Infantry","Light Cavalry",
+	     "Heavy Cavalry","Camel","Elephant","Machinegun","Artillery"]
   },
   {
      "name": "Collateral Damage",
-     "prerequisites": ["Volley","Siege II","Bombardment II"],
+     "prerequisites": ["Rank II"],
      "uniques": ["Destroys tile improvements when attacking"],
-     "unitTypes": ["Siege","Bomber","Ranged Water"]
+     "unitTypes": ["Siege","Bomber","Ranged Water","Artillery"]
   },
 
   {
      "name": "Speed Loaders",
-     "prerequisites": ["Accuracy II","Barrage II","Shock II","Drill II"],
+     "prerequisites": ["Post Rank"],
      "uniques": ["[+1] additional attacks per turn"],
-     "unitTypes": ["Ranged Gunpowder","Gunpowder"]
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Infantry","Machinegun","Artillery"]
   },
 
   {
@@ -114,102 +117,111 @@
   {
      "name": "Rank I",
      "uniques": ["[+20]% XP gained from combat", "[+10]% Strength"],
-     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier", "Infantry",
+     	"Archaic Infantry", "Light Cavalry","Heavy Cavalry","Camel","Elephant","Machinegun","Artillery",]
   },
   {
      "name": "Rank II",
      "prerequisites": ["Rank I"],
      "uniques": ["[+40]% XP gained from combat", "[+10]% Strength"],
-     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier", "Infantry",
+     	"Archaic Infantry", "Light Cavalry","Heavy Cavalry","Camel","Elephant","Machinegun","Artillery",]
   },
   {
      "name": "Rank III",
      "prerequisites": ["Rank II"],
      "uniques": ["[+60]% XP gained from combat", "[+10]% Strength"],
-     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier", "Infantry",
+     	"Archaic Infantry", "Light Cavalry","Heavy Cavalry","Camel","Elephant","Machinegun","Artillery",]
   },
     {
      "name": "Post Rank",
      "prerequisites": ["Rank III"],
      "uniques": ["[+25]% XP gained from combat", "[+1] Movement", "[+1] Sight"],
-     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier", "Infantry",
+     	"Archaic Infantry", "Light Cavalry","Heavy Cavalry","Camel","Elephant","Machinegun","Artillery",]
   },
   {
      "name": "Community Sway",
      "prerequisites": ["Post Rank"],
      "uniques": ["Prevents spreading of religion to the city it is next to"],
-     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier", "Infantry",
+     	"Archaic Infantry", "Light Cavalry","Heavy Cavalry","Camel","Elephant","Machinegun","Artillery"]
   },
   {
      "name": "Community Defender",
      "prerequisites": ["Post Rank"],
      "uniques": ["[+3] Sight", "Can see over obstacles", "[+10]% Strength bonus for [Military] units within [2] tiles"],
-     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier", "Infantry",
+     	"Archaic Infantry", "Light Cavalry","Heavy Cavalry","Camel","Elephant","Machinegun","Artillery"]
   },
   {
      "name": "Community Builder",
      "prerequisites": ["Post Rank"],
      "uniques": ["Can build [All] improvements on tiles", "Can build [All] improvements at a [+100]% rate"],
-     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
-  },
-  {
-     "name": "Martyr",
-     "prerequisites": ["Post Rank"],
-     "uniques": ["Can generate a large amount of culture <by consuming this unit>"],
-     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier", "Infantry",
+     	"Archaic Infantry", "Light Cavalry","Heavy Cavalry","Camel","Elephant","Machinegun","Artillery"]
   },
   {
      "name": "Offensive Drills",
      "prerequisites": ["Rank III"],
      "uniques": ["[+25]% Strength <when attacking>"],
-     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier", "Infantry",
+     	"Archaic Infantry", "Light Cavalry","Heavy Cavalry","Camel","Elephant","Machinegun","Artillery"]
   },
   {
      "name": "Offensive Drills II",
      "prerequisites": ["Offensive Drills"],
      "uniques": ["[+25]% Strength <when attacking>", "[+1] Movement"],
-     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier", "Infantry",
+     	"Archaic Infantry", "Light Cavalry","Heavy Cavalry","Camel","Elephant","Machinegun","Artillery"]
   },
   {
      "name": "Offensive Mastery",
      "prerequisites": ["Offensive Drills II"],
      "uniques": ["[+25]% Strength <when attacking>", "[+50]% Strength bonus for [Siege] units within [3] tiles"],
-     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+     "unitTypes":["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier", "Infantry",
+     	"Archaic Infantry", "Light Cavalry","Heavy Cavalry","Camel","Elephant","Machinegun","Artillery"]
   },
     {
      "name": "Defensive Drills",
      "prerequisites": ["Rank III"],
      "uniques": ["[+25]% Strength <when defending>"],
-     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
-  },
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier", "Infantry",
+     	"Archaic Infantry", "Light Cavalry","Heavy Cavalry","Camel","Elephant","Machinegun","Artillery"]
   {
      "name": "Defensive Drills II",
      "prerequisites": ["Defensive Drills"],
      "uniques": ["[+25]% Strength <when defending>", "[+1] Sight"],
-     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier", "Infantry",
+     	"Archaic Infantry", "Light Cavalry","Heavy Cavalry","Camel","Elephant","Machinegun","Artillery"]
   },
   {
      "name": "Capital Guards",
      "prerequisites": ["Defensive Drills II"],
      "uniques": ["[+50]% Strength decreasing with distance from the capital", "[+1] Sight"],
-     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier", "Infantry",
+     	"Archaic Infantry", "Light Cavalry","Heavy Cavalry","Camel","Elephant","Machinegun","Artillery"]
   },
   {
      "name": "Raider I",
      "uniques": ["[+25]% Yield from pillaging tiles", "No movement cost to pillage"],
-     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water"]
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier", "Infantry",
+     	"Archaic Infantry", "Light Cavalry","Heavy Cavalry","Camel","Elephant","Machinegun","Artillery"]
   },
   {
      "name": "Raider II",
      "prerequisites": ["Raider I"],
      "uniques": ["[+25]% Yield from pillaging tiles", "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"],
-     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water"]
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier", "Infantry",
+     	"Archaic Infantry", "Light Cavalry","Heavy Cavalry","Camel","Elephant","Machinegun","Artillery"]
   },
   {
      "name": "Raider III",
      "prerequisites": ["Raider II"],
      "uniques": ["[+50]% Yield from pillaging tiles", "[+25]% Health from pillaging tiles", "Upon capturing a city, receive [3] times its [Gold] production as [Gold] immediately"],
-     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water"]
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier", "Infantry",
+     	"Archaic Infantry", "Light Cavalry","Heavy Cavalry","Camel","Elephant","Machinegun","Artillery"]
   },
 ]
 
